@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Working
+comment0.text=\r\nContains\ all\ the\ innerworkings\ of\ my\ take\ on\ the\ Game\ of\ Life\:\r\nMethods\ (-\ main\ methods,\ +\ helper\ methods,\ *\ methods\ for\ lab)\:\r\n\ \ \ \ -\ Read\ file\ and\ store\ in\ 2D\ array\ ->\ parameter\:\ none,\ return\ type\:\ none\r\n\ \ \ \ -\ generate\ next\ gen\ ->\ parameter\:\ none,\ return\ type\:\ none\r\n\ \ \ \ \ \ +\ count\ neighbors\ ->\ parameter\:\ row\ and\ column,\ return\ type\:\ int\r\n\ \ \ \ \ \ +\ determine\ life\ or\ death\ (w/\ ints\ 0\ and\ 1)\ ->\ parameter\:\ int,\ return\ type\:\ int\ (1\ or\ 0)\r\n\ \ \ \ \ \ +\ store\ into\ copy\ ->\ parameter\:\ none,\ return\ type\:\ none\r\n\ \ \ \ \ \ +\ Replace\ OG\ array\ w/this\ ->\ parameter\:\ none,\ return\ type\:\ none\r\n\ \ \ \ -\ print\ array\ onto\ screen\r\n\ \ \ \ \ \ +\ format\ (w/\ stars\ if\ alive\ and\ spaces\ if\ dead\ maybe)\r\n\ Count\ living\ cells\ on\ entire\ board\ ->\ parameters\:\ none,\ return\ type\:\ int\r\n\ Count\ living\ cells\ on\ given\ row\ ->\ parameters\:\ row,\ return\ type\:\ int\r\n\ Count\ living\ cells\ on\ given\ column\ ->\ parameters\:\ column,\ return\ type\:\ int\r\n\r\nInstance\ Variables\:\r\n\ \ \ \ -\ og\ 2D\ array\r\n\ \ \ \ -\ copy\ 2D\ array\r\n\ \ \ \ -\ (FileInput)\ file\ reader\r\n\r\n\ @Cristian\ Embleton\r\n\ @1/23/2022\r\n
+comment1.params=file
+comment1.target=Working(java.lang.String)
+comment2.params=
+comment2.target=void\ fillArray()
+comment3.params=generations
+comment3.target=void\ generate(int)
+comment4.params=genNum
+comment4.target=void\ print(int)
+numComments=5

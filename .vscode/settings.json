@@ -1,0 +1,10 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "chnutil.jar",
+        "chndocs.jar",
+        "apcslib.jar",
+        "c:\\Users\\crise\\Downloads\\chnutil.jar",
+        "c:\\Users\\crise\\Downloads\\apcslib.jar"
+    ]
+}
